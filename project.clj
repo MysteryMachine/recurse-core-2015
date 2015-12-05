@@ -8,6 +8,7 @@
                  [org.clojure/clojurescript "1.7.170"]
                  [org.clojure/core.async "0.2.374"]
                  [com.cemerick/piggieback "0.2.1"]
+                 [cheshire "5.5.0"]
                  [reagent "0.5.0"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
