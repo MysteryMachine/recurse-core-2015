@@ -1,10 +1,16 @@
 # recurse-core-2015
 
-FIXME: Write a one-line description of your library/project.
+Recurse Center data science project for the Clojure Cup of 2015
 
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+Recursers collaborated on a project where we created a food map of
+NYC, showing the different types of restaurants that a neighborhood
+contained, and then allowed a user to pick their neighborhood and
+have their neighborhood audited for food types.
+
+[DOHNMH New York City Restaurant Results](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j)
+[Legally Operating Businesses](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh)
 
 ## Setup
 
