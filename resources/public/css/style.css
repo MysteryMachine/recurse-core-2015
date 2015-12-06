@@ -1,4 +1,93 @@
 /* some style */
 
 html, body { height: 100%; margin: 0; padding: 0; }
-      #map { height: 100%; }
+#map {
+    height: 90%;
+}
+#app {
+    height: 10%;
+}
+
+#inner{
+    height: 95%;
+    border-width: 0 0 16px 0;
+    border-color: #121409;
+    border-style: solid;
+}
+
+@font-face{
+    font-family: text;
+    src: url("../fonts/CooperHewitt-Book.otf");
+}
+
+@font-face {
+    font-family: header;
+    src: url("../fonts/8d.ttf");
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+#header-text{
+    display: flex;
+    text-align: center;
+    font-family: header;
+    font-size: 50px;
+}
+
+#legend{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    max-width: 40%;
+    max-height: 60%;
+    min-width: 100px;
+    min-height: 100px;
+    z-index: 10;
+    background-color: white;
+    border-color: #121311;
+    border-width: 4px;
+    border-style: solid;
+    padding: 20px;
+    font-family: text;
+    overflow-y: scroll;
+}
+
+#legend-header{
+    text-align: center;
+    border-width: 0 0 1px 0;
+    border-color: #121311;
+    border-style: solid;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+  display: inline-block;
+}
+
+.name{
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.entry{
+    padding-bottom: 3px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #EFEFEF;
+    margin-bottom: 5px;
+}
+
+.entry:last-of-type{
+    border-width: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
